@@ -4,4 +4,3 @@ require 'oauth/request_proxy/action_controller_request'
 require 'oauth/server'
 require 'oauth/controllers/application_controller_methods'
 
-ActionController::Base.send :include, OAuth::Controllers::ApplicationControllerMethods
